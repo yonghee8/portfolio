@@ -116,15 +116,15 @@ import {
   
   const experiences = [
     {
-      title: "Data Analyst",
-      company_name: "Lin Dental Clinic",
-      icon: lin,
+      title: "Web Developer",
+      company_name: "BYU Office of Digital Humanities",
+      icon: odh,
       iconBg: "white",
-      date: "June 2022 - August 2022",
+      date: "April 2023 - Present",
       points: [
-        "Managing and analyzing data using Excel VBA",
-        "Implementing effective financial storing system and ensuring unused software are removed.",
-        "Participating in staff meetings and providing constructive feedback to other staff members.",
+        "Developing and maintaining web applications using HTML, PHP, CSS and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality website.",
+        "Implementing responsive design and ensuring cross-browser compatibility."
       ],
     },
     {
@@ -136,22 +136,21 @@ import {
       points: [
         "Developing and maintaining client data using Python, Excel and other related technologies.",
         "Collaborating with cross-functional teams including senior consultants, product managers, and other developers to create data analysis deliverables.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participating in meetings and providing constructive feedback to other team members.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "BYU Office of Digital Humanities",
-      icon: odh,
+      title: "Data Analyst",
+      company_name: "Lin Dental Clinic",
+      icon: lin,
       iconBg: "white",
-      date: "April 2023 - Present",
+      date: "June 2022 - August 2022",
       points: [
-        "Developing and maintaining web applications using HTML, PHP, CSS and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality website.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Managing and analyzing data using Excel VBA",
+        "Implementing effective financial management system and ensuring unused software are removed.",
+        "Participating in staff meetings and providing constructive feedback to other staff members."
       ],
-    },
+    }
   ];
   
   const testimonials = [

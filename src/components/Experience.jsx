@@ -1,5 +1,9 @@
-import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
-import { motion } from 'framer-motion';
+import React from "react";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import { motion } from "framer-motion";
 
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -59,7 +63,7 @@ const Experience = () => {
           What I have done so far
         </p>
         <h2 className={styles.sectionHeadText}>
-          Experience
+          Work Experience
         </h2>
       </motion.div>
 
@@ -72,7 +76,7 @@ const Experience = () => {
         </VerticalTimeline>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Experience, "work")
+export default SectionWrapper(Experience, "work");

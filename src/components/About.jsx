@@ -14,8 +14,8 @@ const ServiceCard = ({ index, title, icon })=> {
       <motion.div
         variants={fadeIn("right", "spring", 0.5 *
         index, 0.75)}
-        className="w-full green-pink-gradient p-[1px]
-        rounded-[40px] shadow-card"
+        className="w-full p-[1px]
+        rounded-[40px]"
       >
         <div
           options={{
@@ -23,7 +23,7 @@ const ServiceCard = ({ index, title, icon })=> {
             scale: 1,
             speed: 450
           }}
-          className="bg-tertiary rounded-[40px]
+          className="rounded-[40px]
           py-5 px-12 min-h-[280px] flex 
           justify-evenly items-center flex-col"
         >
@@ -51,13 +51,12 @@ const About = () => {
         className="mt-7 text-secondary text-[17px]
         max-w-6xl leading-[30px]"
       >
-        I am an aspiring web developer with experience in Typescript, Javascript, React, C#
-        and C++. I'm a quick learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems. Let's 
-        work together and bring your ideas to life!
+        I am an aspiring web developer with experience in Python, C#, C++, and 
+        React. My passion lies in learning new technologies and working collaboratively to 
+        create robust, scalable, and user-centric solutions that solves real-world challenges. 
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-20 justify-evenly">
+      <div className="mt-40 flex flex-wrap gap-20 justify-evenly">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index=
           {index} {...service} /> 
@@ -67,4 +66,4 @@ const About = () => {
   )
 }
 
-export default SectionWrapper(About, "about")
+export default SectionWrapper(About, "about");
